@@ -24,10 +24,16 @@ for filename in os.listdir(source_directory):
 #     csv_writer.writerows(data)
 
 
-import csv
+# import csv
 
-# Read and print data from a CSV file
-with open('data.csv', 'r') as file:
-    csv_reader = csv.reader(file)
-    for row in csv_reader:
-        print(', '.join(row))
+# # Read and print data from a CSV file
+# with open('data.csv', 'r') as file:
+#     csv_reader = csv.reader(file)
+#     for row in csv_reader:
+#         print(', '.join(row))
+
+# Read and print the contents of a text file
+with open('sample.txt', 'r') as file:
+    content = file.read()
+    print(content)
+
