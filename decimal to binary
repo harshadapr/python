@@ -1,0 +1,7 @@
+def decimal_to_binary(decimal):
+    binary = bin(decimal).replace("0b", "")
+    return binary
+
+decimal_number = 10
+binary_representation = decimal_to_binary(decimal_number)
+print(f"Binary representation of {decimal_number} is {binary_representation}")
