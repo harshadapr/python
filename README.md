@@ -1,7 +1,6 @@
 
 
-# Python Programs Repository
-
+# Python Programs
 Welcome to the Python Programs Repository! This repository contains a collection of Python programs, scripts, and code examples to help you learn, practice, or use Python for various tasks and applications.
 
 ## Getting Started
